@@ -5,6 +5,26 @@
   text-align: center;
 }
 
+.card {
+  background-color: #f4f4f4;
+  border-radius: 0.5em;
+  box-shadow: 0 0 1em #00000022;
+  margin: 1em;
+  padding: 2em;
+  text-align: left;
+  color: #333;
+  width: 15%;
+  display: inline-block;
+  margin-bottom: 2em;
+
+}
+
+img{
+  width: 100%;
+  height: auto;
+
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
