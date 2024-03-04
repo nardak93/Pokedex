@@ -3,6 +3,7 @@ import PokemonStarters from "../components/PokemonStarters"
 import NewsLetter from "../components/NewsLetter/NewsLetter"
 import PokeCard from "../components/Card/PokeCard"
 import PokemonSearch from "../components/PokemonSearch"
+// import PokemonTeam from "../components/PokemonTeam"
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
             <PokemonStarters />
             <PokemonSearch />
             <PokeCard />
+            {/* <PokemonTeam /> */}
             <NewsLetter />
         </div>
 

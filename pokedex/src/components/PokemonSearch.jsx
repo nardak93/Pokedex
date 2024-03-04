@@ -30,6 +30,11 @@ const PokemonSearch = () => {
                         <div key={pokemon.id} className='cardItem'>
                             <h2>{pokemon.name}</h2>
                             <img src={pokemon.image} alt={pokemon.name} />
+                            <div className="types">
+                                {pokemon.apiTypes.map((type, index) => (
+                                    <img key={index} src={type.image} alt={type.name} />
+                                ))}
+                            </div>
                         </div>
                     ))}
                 </div>
