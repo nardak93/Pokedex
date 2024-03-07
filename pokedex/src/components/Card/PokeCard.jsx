@@ -1,4 +1,6 @@
-import{ useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+
+//comment
 
 function PokeCard() {
     const [pokemonCard, setPokemonCard] = useState([]);
@@ -18,7 +20,7 @@ function PokeCard() {
     }, []);
 
     const addToTeam = (pokemon) => {
-        console.log(`Added ${pokemon.name} to the team`);
+        console.log(`Ajouté ${pokemon.name} à l'équipe`);
     };
 
     return (
@@ -34,7 +36,7 @@ function PokeCard() {
                                     <img key={index} src={type.image} alt={type.name} />
                                 ))}
                             </div>
-                            <button onClick={() => addToTeam(pokemon)}>Add to Team</button>
+                            <button onClick={() => addToTeam(pokemon)}>Ajouter à l'équipe</button>
                         </div>
                     ))}
                 </div>
@@ -46,3 +48,4 @@ function PokeCard() {
 export default PokeCard;
 
 
+//
